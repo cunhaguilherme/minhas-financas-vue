@@ -58,79 +58,87 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-body {
-  font-family: tahoma;
-  color: #282828;
-  margin: 0px;
+.product-info{
+    text-align: center!important;
 }
 
-.nav-bar {
-  background: linear-gradient(-90deg, #84cf6a, #16c0b0);
-  height: 60px;
-  margin-bottom: 15px;
+.areaBotoes{
+    text-align: center;
 }
 
-.product {
-  display: flex;
+button{
+    margin: 10px;
 }
 
-img {
-  border: 1px solid #d8d8d8;
-  width: 70%;
-  margin: 40px;
-  box-shadow: 0px 0.5px 1px #d8d8d8;
+.text-center {
+    text-align: center!important;
 }
 
-.product-image {
-  flex-basis: 700px;
+body{
+  margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
 }
-
-.product-info {
-  margin-top: 10px;
-  flex-basis: 500px;
+label{
+    display: inline-block;
+    margin-bottom: .5rem;
 }
-
-.color-box {
-  width: 40px;
-  height: 40px;
-  margin-top: 5px;
+input{display: block;
+    width: 95%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
-.cart {
-  margin-right: 25px;
-  float: right;
-  border: 1px solid #d8d8d8;
-  padding: 5px 20px;
-}
-
 button {
-  margin-top: 30px;
-  border: none;
-  background-color: #1e95ea;
-  color: white;
-  height: 40px;
-  width: 100px;
-  font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+    padding: 8px 20px 8px 20px;
+    font-size: 17px;
+    margin: 10px;
 }
 
-.disabledButton {
-  background-color: #d8d8d8;
-}
-
-.review-form {
-  width: 30%;
-  padding: 20px;
-  border: 1px solid #d8d8d8;
-}
-
-input {
+table {
+  font-family: 'Open Sans', sans-serif;
   width: 100%;
-  height: 25px;
-  margin-bottom: 20px;
+  border-collapse: collapse;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
-textarea {
-  width: 100%;
-  height: 60px;
+table th {
+  font-weight: bold;
+  text-align: left;
+  background: #FFFFFF;
+  border-top: 1px solid #A9A9A9;
+  border-bottom: 1px solid #A9A9A9;
+  padding-left: 8px;
+  padding-right: 8px;
+  min-width: 30px;
+}
+
+table td {
+  font-weight: normal;
+  text-align: left;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-top: 1px solid #A9A9A9;
+  border-bottom: 1px solid #A9A9A9;
 }
 </style>
